@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html> 
+<html>
+<head>
+	<title>Vallauri</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="index.css"/>
+    <script type="application/javascript" src="index.js"></script>
+</head>
+<body onload="init()">
+  <div id="wrapper">
+	 <div> 
+	    <h1> CALCOLATRICE </h1>
+        <input type="text" value="" id="txtDisplay" readonly />
+        <br/>
+        <input type="button" value="7" name="btnNum" onclick="aggiungi7()"/>
+        <input type="button" value="8" name="btnNum" onclick="aggiungi8()"/>
+        <input type="button" value="9" name="btnNum" onclick="aggiungi9()"/>
+        <input type="button" value="/" name="btnOperatore" onclick="divisione()"/>
+        <br/>
+        <input type="button" value="4" name="btnNum" onclick="aggiungi4()"/>
+        <input type="button" value="5" name="btnNum" onclick="aggiungi5()"/>
+        <input type="button" value="6" name="btnNum" onclick="aggiungi6()"/>
+        <input type="button" value="*" name="btnOperatore" onclick="moltiplicazione()"/>
+        <br/>
+        <input type="button" value="1" name="btnNum" onclick="aggiungi1()"/>
+        <input type="button" value="2" name="btnNum" onclick="aggiungi2()"/>
+        <input type="button" value="3" name="btnNum" onclick="aggiungi3()"/>
+        <input type="button" value="-" name="btnOperatore" onclick="sottrazione()"/>
+        <br/>
+        <input type="button" value="0" name="btnNum" onclick="aggiungi0()"/>
+        <input type="button" value="." name="btnNum" onclick="aggiungiP()"/>
+        <input type="button" value="C" onclick="resetta()"/>
+        <input type="button" value="+" name="btnOperatore" onclick="somma()"/>
+        <br/>
+        <input type="button" value="=" onclick="calcola()" id="btnRis" />
+     </div>
+  </div>
+</body>
+</html>
