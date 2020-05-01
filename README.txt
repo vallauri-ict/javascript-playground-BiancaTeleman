@@ -1,1 +1,1 @@
-ES 18:utilizzo del comando addEventListener
+ES 21: validazione di una form in modo più avanzato
